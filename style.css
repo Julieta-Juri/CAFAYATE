@@ -1,0 +1,43 @@
+body{
+    background-color:rgb(52, 16, 16);
+}
+.card{
+    width: auto;
+    height: auto;
+    text-align: left;
+    background-color:rgb(212, 198, 201); 
+}
+.card-title{
+    color: #794621;
+    font-weight: 600;
+}
+.card-img-top{
+    border: black;
+    border-radius: 2%;
+}
+.card-text{
+    color: rgb(3, 3, 3);
+    font-weight: 400;
+    font-style: oblique;
+    font-size: medium;
+}
+.card-container{
+    display: grid;
+    flex-wrap: wrap;  /* Permite que las tarjetas se acomoden si no caben en la fila */
+    justify-content: center;  /* Centra las tarjetas horizontalmente */
+    gap: 20px; /* Espacio entre tarjetas */
+}
+.btn-primary {
+    align-items: center;
+    color: rgb(242, 236, 236);
+    font-weight: 500;
+    background-color: #794621; /* Color terracota */
+    border-color: black; /* Borde del mismo color */
+    text-align: center;
+    }
+
+.btn-primary:hover {
+    background-color: #202e47; /* Color más oscuro al pasar el mouse */
+    border-color: black;
+    color: white;
+    }
